@@ -23,13 +23,18 @@ module.exports = {
         test: /\.css$/,
         use: [
           "style-loader",
-          { loader: "css-loader", options: { importLoaders: 1 } },
+          { loader: "css-loader", options: { importLoaders: 1, modules: true } }, // 解释如下，前面只有1个loader，所以为1
           "postcss-loader",
         ],
       },
       {
         test: /\.scss$/,
-        use: ["style-loader", "css-loader", "sass-loader", "postcss-loader"],
+        use: [
+          "style-loader",
+          { loader: "css-loader", options: { importLoaders: 2 } }, // 若在scss文件中引入另一个scss文件，则可能直接从css-loader走，所以添加importLoaders为2，则往下走2个loader
+          "sass-loader",
+          "postcss-loader",
+        ],
       },
     ],
   },
