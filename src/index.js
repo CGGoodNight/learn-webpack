@@ -1,6 +1,7 @@
 import Header from './header';
 import bg from './static/bg.png';
 import './index.css';
+import './index.scss';
 
 new Header();
 
