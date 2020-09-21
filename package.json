@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/CGGoodNight/learn-webpack/issues"
   },
-  "homepage": "https://github.com/CGGoodNight/learn-webpack#readme"
+  "homepage": "https://github.com/CGGoodNight/learn-webpack#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
 }
