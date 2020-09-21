@@ -86,6 +86,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/_css-loader@4.3.0@css-loader/dist/cjs.js!./src/bg.css":
+/*!****************************************************************************!*\
+  !*** ./node_modules/_css-loader@4.3.0@css-loader/dist/cjs.js!./src/bg.css ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/_css-loader@4.3.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@4.3.0@css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \".bg {\\r\\n  width: 150px;\\r\\n  height: 150px;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/bg.css?./node_modules/_css-loader@4.3.0@css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/_css-loader@4.3.0@css-loader/dist/cjs.js!./src/index.css":
 /*!*******************************************************************************!*\
   !*** ./node_modules/_css-loader@4.3.0@css-loader/dist/cjs.js!./src/index.css ***!
@@ -94,7 +106,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/_css-loader@4.3.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@4.3.0@css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"\", \"\"]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/index.css?./node_modules/_css-loader@4.3.0@css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/_css-loader@4.3.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@4.3.0@css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_bg_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! -!../node_modules/_css-loader@4.3.0@css-loader/dist/cjs.js!./bg.css */ \"./node_modules/_css-loader@4.3.0@css-loader/dist/cjs.js!./src/bg.css\");\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_4_3_0_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);\n___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_bg_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"\", \"\"]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/index.css?./node_modules/_css-loader@4.3.0@css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -153,7 +165,7 @@ eval("var api = __webpack_require__(/*! ../node_modules/_style-loader@1.2.1@styl
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n/* harmony import */ var _static_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./static/bg.png */ \"./src/static/bg.png\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nnew _header__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n/* harmony import */ var _static_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./static/bg.png */ \"./src/static/bg.png\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nnew _header__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\r\n\r\nvar img = new Image();\r\nimg.src = _static_bg_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\r\nimg.classList.add('bg');\r\nvar root = document.getElementById('root');\r\nroot.append(img);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
