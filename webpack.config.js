@@ -17,6 +17,9 @@ module.exports = {
           limit: 20480 // 1024字节 = 1KB,大于则使用file-loader
         }
       }
+    }, {
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader']
     }]
   },
   output: {
