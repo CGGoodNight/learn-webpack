@@ -20,10 +20,16 @@ module.exports = {
         },
       },
       {
+        test: /\.(eot|svg|ttf|woff)$/,
+        use: {
+          loader: "url-loader"
+        },
+      },
+      {
         test: /\.css$/,
         use: [
           "style-loader",
-          { loader: "css-loader", options: { importLoaders: 1, modules: true } }, // 解释如下，前面只有1个loader，所以为1
+          { loader: "css-loader", options: { importLoaders: 1} }, // 解释如下，前面只有1个loader，所以为1
           "postcss-loader",
         ],
       },
