@@ -22,7 +22,7 @@ module.exports = {
       {
         test: /\.(eot|svg|ttf|woff)$/,
         use: {
-          loader: "url-loader"
+          loader: "file-loader"
         },
       },
       {
