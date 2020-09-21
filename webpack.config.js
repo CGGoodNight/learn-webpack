@@ -9,11 +9,12 @@ module.exports = {
     rules: [{
       test: /\.(png|png|gif)$/,
       use: {
-        loader: 'file-loader',
+        loader: 'url-loader',
         options: {
           // name为引入文件的原名字，ext为原后缀, hash为随机hash值，更多可在webpack官网上查询
           name: '[name]_[hash].[ext]',
-          outputPath: 'images/'
+          outputPath: 'images/',
+          limit: 20480 // 1024字节 = 1KB,大于则使用file-loader
         }
       }
     }]
