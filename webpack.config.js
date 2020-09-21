@@ -7,9 +7,14 @@ module.exports = {
   },
   module: {
     rules: [{
-      test: /\.png$/,
+      test: /\.(png|png|gif)$/,
       use: {
-        loader: 'file-loader'
+        loader: 'file-loader',
+        options: {
+          // name为引入文件的原名字，ext为原后缀, hash为随机hash值，更多可在webpack官网上查询
+          name: '[name]_[hash].[ext]',
+          outputPath: 'images/'
+        }
       }
     }]
   },
