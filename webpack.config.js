@@ -1,4 +1,6 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -22,14 +24,14 @@ module.exports = {
       {
         test: /\.(eot|svg|ttf|woff)$/,
         use: {
-          loader: "file-loader"
+          loader: "file-loader",
         },
       },
       {
         test: /\.css$/,
         use: [
           "style-loader",
-          { loader: "css-loader", options: { importLoaders: 1} }, // 解释如下，前面只有1个loader，所以为1
+          { loader: "css-loader", options: { importLoaders: 1 } }, // 解释如下，前面只有1个loader，所以为1
           "postcss-loader",
         ],
       },
@@ -44,6 +46,12 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      template: "./public/index.html",
+    }),
+  ],
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "build"),
